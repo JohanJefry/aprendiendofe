@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://www.miweb.com",
+  "api": {
+    "uri": "http://www.miweb.com/graphql",
+    "credentials": "same-origin"
+  },
+  "debug": false,
+  "cache": {
+    "enable": true,
+    "whitelist": []
+  },
+  "session": {
+    "cookieDomain": "www.miweb.com",
+    "maxAge": 604800,
+    "cookiePrefix": "",
+    "path": "/",
+    "httpOnly": true
+  }
+
+}

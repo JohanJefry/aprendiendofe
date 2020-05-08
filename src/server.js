@@ -8,6 +8,9 @@ const dev = process.env.NODE_ENV !== 'productio';
 const nextApp = next({ dev });
 const handle = nextApp.getRequestHandler();//para las app Next
 
+// Configuration
+import config from '@config';
+
 // Running Next App
 nextApp.prepare().then(()=>{
     const app = express();
@@ -26,5 +29,5 @@ nextApp.prepare().then(()=>{
     });
 
     //Listening port 3000
-    app.listen(3000);
+    app.listen(config.serverPort);
 });
