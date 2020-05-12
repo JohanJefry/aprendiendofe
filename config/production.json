@@ -1,7 +1,7 @@
 {
-  "baseUrl": "http://www.miweb.com",
+  "baseUrl": "http://www.dev.education",
   "api": {
-    "uri": "http://www.miweb.com/graphql",
+    "uri": "http://www.dev.education/graphql",
     "credentials": "same-origin"
   },
   "debug": false,
@@ -10,11 +10,10 @@
     "whitelist": []
   },
   "session": {
-    "cookieDomain": "www.miweb.com",
+    "cookieDomain": "www.dev.education",
     "maxAge": 604800,
     "cookiePrefix": "",
     "path": "/",
     "httpOnly": true
   }
-
 }

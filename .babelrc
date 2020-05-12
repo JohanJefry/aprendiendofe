@@ -4,14 +4,20 @@
     ["module-resolver",{
       "root": ["./"],
       "alias": {
+        "@apollo-client": "./src/shared/lib/apollo.js",
         "@app": "./src/app",
         "@components": "./src/shared/coomponents",
         "@config": "./config",
+        "@contexts": "./src/contexts",
+        "@graphql": "./src/graphql",
         "@layout": "./src/shared/components/layout",
+        "@middlewares": "./src/shared/lib/middlewares",
         "@pages": "./src/pages",
         "@shared": "./src/shared",
         "@styles": "./src/shared/styles",
-        "@users": "./src/app/Users"
+        "@users": "./src/app/Users",
+        "@is": "./src/utils/is",
+        "@utils": "./src/utils"
       }
     }]
   ]

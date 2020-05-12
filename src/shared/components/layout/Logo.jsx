@@ -11,10 +11,10 @@ import styles from './Logo.scss'
 
 const Logo = props => {
   const { isotype = '', center = '' } = props;
-
+  //title="Codejobs" en Link
   return (
     <div className={`${styles.logo} ${center && styles.center} ${isotype && styles.isotype}`}>
-      <Link href="/" title="Codejobs">
+      <Link href="/">
         <a>
           <Retina src="/images/logo.png" />
 
