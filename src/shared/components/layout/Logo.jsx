@@ -1,7 +1,7 @@
 // Dependencies
 import React from 'react'
 import { bool } from 'prop-types'
-import { Retina } from 'fogg-ui'
+//import { Retina } from 'fogg-ui'
 
 // Components
 import Link from 'next/link'
@@ -16,7 +16,8 @@ const Logo = props => {
     <div className={`${styles.logo} ${center && styles.center} ${isotype && styles.isotype}`}>
       <Link href="/">
         <a>
-          <Retina src="/images/logo.png" />
+          {/* <Retina src="/images/logo.png" /> */}
+          <img src="/images/logo.png" />
 
           {!isotype && (
             <span className={styles.brand}>

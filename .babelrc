@@ -9,14 +9,16 @@
         "@components": "./src/shared/coomponents",
         "@config": "./config",
         "@contexts": "./src/contexts",
+        "@dashboard": "./src/shared/components/dashboard",
         "@graphql": "./src/graphql",
+        "@is": "./src/utils/is",
         "@layout": "./src/shared/components/layout",
         "@middlewares": "./src/shared/lib/middlewares",
         "@pages": "./src/pages",
         "@shared": "./src/shared",
         "@styles": "./src/shared/styles",
+        "@ui": "./src/shared/components/ui",
         "@users": "./src/app/Users",
-        "@is": "./src/utils/is",
         "@utils": "./src/utils"
       }
     }]
